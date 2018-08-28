@@ -74,6 +74,11 @@ def play(board)
     turn(board)
     turn_count += 1
   end
+  
+  if(temp = draw)
+    
+  end
+  
   if(temp = won?(board))
     puts "Congratulations #{temp}!"
   end
