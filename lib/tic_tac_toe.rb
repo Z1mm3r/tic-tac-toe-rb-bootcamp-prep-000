@@ -74,7 +74,7 @@ def play(board)
     turn(board)
     turn_count += 1
   end
-  if(winner)
+  if(won)
 end
 
 def turn_count(board)
