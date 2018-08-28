@@ -76,10 +76,8 @@ def play(board)
   end
   
   if(temp = draw?(board))
-    
-  end
   
-  if(temp = won?(board))
+  elsif(temp = won?(board))
     puts "Congratulations #{temp}!"
   end
 end
