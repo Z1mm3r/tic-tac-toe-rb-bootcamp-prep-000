@@ -78,7 +78,7 @@ def play(board)
   if(temp = draw?(board))
     puts "Cat's Game!"
   elsif(won?(board))
-    puts "Congratulations #{board[temp[0]]}!"
+    puts "Congratulations #{board[won?(board)[0]]}!"
   end
 end
 
