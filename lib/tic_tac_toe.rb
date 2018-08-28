@@ -75,7 +75,7 @@ def play(board)
     turn_count += 1
   end
   
-  if(temp = draw?())
+  if(temp = draw?(board))
     
   end
   
