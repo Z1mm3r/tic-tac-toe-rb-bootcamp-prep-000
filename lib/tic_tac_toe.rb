@@ -75,7 +75,7 @@ def play(board)
     turn_count += 1
   end
   if(temp = won?(board))
-    puts "Congratulations #{temp[0]}!"
+    puts "Congratulations #{temp}!"
   end
 end
 
